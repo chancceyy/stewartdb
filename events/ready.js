@@ -4,7 +4,6 @@ const { mongoPass, mongoUser } = require('../config.json')
 const dbOptions = {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    useFindAndModify: false,
 }
 
 module.exports = async () => {
