@@ -1,4 +1,4 @@
-econst ms = require('parse-ms');
+const ms = require('parse-ms');
 const cooldownSchema = require('../../models/cooldown');
 const profileSchema = require('../../models/profile')
 const { MessageEmbed } = require('discord.js');
